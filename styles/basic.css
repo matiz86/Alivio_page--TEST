@@ -1,9 +1,66 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: .4s
+}
+
+body {
   font-family: 'Lato', sans-serif;
+  background-color: var(--color-white);
+}
+
+.container {
+  max-width: 1450px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 81px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.btn {
+  font-family: 'Lato', sans-serif;
+  border: none;
+  outline: none;
+  width: 185px;
+  height: 50px;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: var(--color-green);
+  cursor: pointer;
+  line-height: 1.25%;
+
+}
+
+.btn:hover,
+.btn:focus-visible {
+  outline: 2px solid var(--color-dark-green);
+}
+
+.btn--signin {
+  background-color: transparent;
+  color: var(--color-black);
 }

@@ -1,3 +1,8 @@
 :root{
-  
+  --color-white:#FFF;
+  --color-black:#000;
+  --color-green:#01875f;
+  --color-dark-green:#245852;
+  --color-text:#484848;
+  --color-text-nav:#292929;
 }
