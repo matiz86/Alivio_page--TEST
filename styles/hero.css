@@ -39,7 +39,11 @@
 
 @media(max-width: 480px) {
   .hero {
-    background: url('../assets/webp/BG-x2.png') 60% 50%/cover no-repeat;
+    
+    background: 
+    linear-gradient(180deg, rgba(245, 246, 252, 0.52), rgba(255, 176, 139, 0.28)),
+    url('../assets/webp/BG-x2.png') 60% 50%/cover no-repeat;
+        
 
   }
 
