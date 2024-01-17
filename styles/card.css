@@ -1,5 +1,5 @@
 .card {
-  max-width: 390px;
+  max-width: 24.375rem;
   height: 830px;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 .card__title {
   position: relative;
   color: var(--color-black);
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: 150%;
   align-self: center;
@@ -22,17 +22,17 @@
 .card__title::before {
   content: "01";
   position: absolute;
-  left: -115px;
-  top: -135px;
-  color: rgba(1, 153, 109, 0.20);
-  font-size: 150px;
+  left: -7.1875rem;
+  top: -8.4375rem;
+  color: rgba(1, 153, 109, 0.25);
+  font-size: 9.375rem;
   font-weight: 400;
   line-height: 150%;
 }
 
-.card__descr {
+.card__desc {
   color: var(--color-textgrey);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 150%;
 }
@@ -40,7 +40,7 @@
 .card__img {
   width: 100%;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   aspect-ratio: auto 65/82;
 }
 
@@ -50,7 +50,7 @@
 
 .card__title--third::before {
   content: "03";
-  left: -130px;
+  left: -8.125rem;
 }
 
 .card__title--right {
@@ -62,14 +62,14 @@
   }
 
   .card__title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .card__title::before {
-    left: -90px;
+    left: -5.625rem;
   }
 
   .card__desc {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
