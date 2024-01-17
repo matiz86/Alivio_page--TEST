@@ -18,9 +18,9 @@
   max-width: 34.6875rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: start;
-    align-items: start; */
-  place-items: start;
+  justify-content: start;
+  align-items: start;
+  /* place-items: start; */
   gap: 1.25rem;
 }
 
@@ -72,16 +72,19 @@
   left: 50%;
   translate: -50% -50%;
 }
+
 .success__play-icon:hover {
   fill: var(--color-green);
   cursor: pointer;
 }
+
 .success__gradient {
   position: absolute;
   z-index: 1;
   inset: 0;
   background: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .5)) center/cover no-repeat;
 }
+
 @media (max-width: 1370px) {
   .success__wrapper {
     justify-content: center;
@@ -89,7 +92,8 @@
 
   .success__content {
     text-align: center;
-    place-items: center start;
+    justify-content: center;
+    align-items: center;
   }
 }
 
