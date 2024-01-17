@@ -30,9 +30,13 @@
   width: 14.375rem;
   height: 4.0625rem;
 }
-@media (min-width: 2500px) {
-  .hero{
-    height: 1230px;
+
+@media (min-width: 1950px) {
+  .hero__content {
+    padding-top: 15.25rem;
+  }
+  .hero {
+    background: url(../assets/webp/BG.webp) top/cover no-repeat;
   }
 }
 
@@ -44,11 +48,11 @@
 
 @media(max-width: 480px) {
   .hero {
-    
-    background: 
-    linear-gradient(180deg, rgba(245, 246, 252, 0.52), rgba(255, 176, 139, 0.28)),
-    url('../assets/webp/BG-x2.png') 60% 50%/cover no-repeat;
-        
+
+    background:
+      linear-gradient(180deg, rgba(245, 246, 252, 0.52), rgba(255, 176, 139, 0.28)),
+      url('../assets/webp/BG-x2.png') 60% 50%/cover no-repeat;
+
 
   }
 
