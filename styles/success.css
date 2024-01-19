@@ -42,7 +42,7 @@
   height: 4.0625rem;
 }
 
-.success__content .btn {
+.success__content .btn:hover {
   outline: 2px solid var(--color-white)
 }
 
