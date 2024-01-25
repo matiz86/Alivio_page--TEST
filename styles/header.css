@@ -39,19 +39,29 @@
   column-gap: 0.625rem;
 }
 
-@media(max-width:992px) {
+@media (max-width: 992px) {
   .header__nav-link {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
-  .btn {
+  .header__actions .btn {
     width: 120px;
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
+  .header__wrapper {
+    padding: 0 0 0 45px;
+  }
+
   .header__nav {
     display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .header__actions .btn {
+    width: 90px;
   }
 }
